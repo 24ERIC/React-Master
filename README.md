@@ -1,11 +1,19 @@
 # React-Master Folder Intro
-1. A Portfolio Website
+1. 
 1. 
 1. 
 1. 
 1. 
 
+# Plan
+- try how to do amazing header, footer by react, https://divjoy.com/build
+    - Tailwindcss, https://tailwindui.com/components/#product-application-ui
+- 
+- 
+- 
+
 # Research What I can do with them
+- everything, https://divjoy.com/build
 - React
     - [10](https://reactjs.org/community/examples.html)
     - [10 projects with source code](https://www.techgeekbuzz.com/blog/react-projects-with-source-code/)
