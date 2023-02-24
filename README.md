@@ -8,8 +8,8 @@
     npm i react-router-dom
     
     # material-ui
-    npm install @material-ui/core
-    npm install @material-ui/icons
+    npm install @mui/material
+    npm install @mui/icons-material
 ```
 
 
