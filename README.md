@@ -1,12 +1,17 @@
 # react step by step
-- create new app
-    - ❗ npx create-react-app
-- redirect
-    - ❗ npm i react-router-dom
-    - [v6 router syntex](https://www.w3schools.com/react/react_router.asp)
-- material-ui
-    - ❗ npm install @material-ui/core
-    - ❗ npm install @material-ui/icons
+
+```Bash
+    # create new app
+    npx create-react-app
+
+    # redirect
+    npm i react-router-dom
+    
+    # material-ui
+    npm install @material-ui/core
+    npm install @material-ui/icons
+```
+
 
     - 
 - 
