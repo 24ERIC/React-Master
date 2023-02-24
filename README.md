@@ -10,6 +10,9 @@
     # material-ui
     npm install @mui/material
     npm install @mui/icons-material
+
+    # fix bug
+    npm uninstall @material-ui/core 
 ```
 
 
