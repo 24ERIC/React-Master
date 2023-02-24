@@ -47,3 +47,6 @@
 
 
 # Datebase
+a website with all the options of pictures, and component I created
+picture 
+component code
