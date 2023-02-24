@@ -2,9 +2,12 @@
 - create new app
     - ❗ npx create-react-app
 - redirect
-    - create pages in src/components folder
     - ❗ npm i react-router-dom
-    - import routing
+    - [v6 router syntex](https://www.w3schools.com/react/react_router.asp)
+- material-ui
+    - ❗ npm install @material-ui/core
+    - ❗ npm install @material-ui/icons
+    - 
 - 
 - 
 - 
@@ -40,9 +43,6 @@
     - 
     - 
 
-# Command
-- Create app
-    - npx create-react-app foldername
-- 
 
 
+# Datebase
