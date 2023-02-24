@@ -1,20 +1,10 @@
-# React-Master Folder Intro
-1. 
-1. 
-1. 
-1. 
-1. 
-
 # react step by step
 - create new app
-    - npx create-react-app xxx
+    - ❗ npx create-react-app
 - redirect
     - create pages in src/components folder
-        - About.jsx
-        - ContactUs.jsx
-        - Home.jsx
-    - npm i react-router-dom
-- 
+    - ❗ npm i react-router-dom
+    - import routing
 - 
 - 
 - 
@@ -28,7 +18,6 @@
 
 # Research What I can do with them
 - [jsx syntax](https://www.freecodecamp.org/news/react-cheatsheet-with-real-world-examples/)
-- everything, https://divjoy.com/build
 - React
     - [10](https://reactjs.org/community/examples.html)
     - [10 projects with source code](https://www.techgeekbuzz.com/blog/react-projects-with-source-code/)
