@@ -1,5 +1,5 @@
 {
-  "name": "v2-test",
+  "name": "1-test-react-multiple-page",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.8.1"
   }
 }
