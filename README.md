@@ -5,6 +5,20 @@
 1. 
 1. 
 
+# react step by step
+- create new app
+    - npx create-react-app xxx
+- redirect
+    - create pages in src/components folder
+        - About.jsx
+        - ContactUs.jsx
+        - Home.jsx
+    - npm i react-router-dom
+- 
+- 
+- 
+- 
+
 # Plan
 - try how to do amazing header, footer by react, https://divjoy.com/build
     - Tailwindcss, https://tailwindui.com/components/#product-application-ui
@@ -13,6 +27,7 @@
 - 
 
 # Research What I can do with them
+- [jsx syntax](https://www.freecodecamp.org/news/react-cheatsheet-with-real-world-examples/)
 - everything, https://divjoy.com/build
 - React
     - [10](https://reactjs.org/community/examples.html)
