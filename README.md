@@ -8,8 +8,7 @@
     npm i react-router-dom
     
     # material-ui
-    npm install @mui/material
-    npm install @mui/icons-material
+    npm install @mui/material @mui/icons-material @emotion/react @emotion/styled 
 
     # fix bug
     npm uninstall @material-ui/core 
