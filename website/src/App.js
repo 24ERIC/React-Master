@@ -1,20 +1,15 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home"
-import Layout from "./components/Layout";
-import Blogs from "./components/Blogs";
-import Contact from "./components/Contact";
-import NoPage from "./components/NoPage";
+import Welcome from "./components/Wix/Welcome/Welcome";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/">
           <Route index element={<Home />} />
-          <Route path="blogs" element={<Blogs />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<NoPage />} />
+          <Route path="welcome" element={<Welcome />} />
         </Route>
       </Routes>
     </BrowserRouter>

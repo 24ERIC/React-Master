@@ -1,67 +1,72 @@
 import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
+import ListSubheader from '@mui/material/ListSubheader';
+import List from '@mui/material/List';
+import ListItemButton from '@mui/material/ListItemButton';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
+import Collapse from '@mui/material/Collapse';
+import InboxIcon from '@mui/icons-material/MoveToInbox';
+import DraftsIcon from '@mui/icons-material/Drafts';
+import SendIcon from '@mui/icons-material/Send';
+import ExpandLess from '@mui/icons-material/ExpandLess';
+import ExpandMore from '@mui/icons-material/ExpandMore';
+import StarBorder from '@mui/icons-material/StarBorder';
+import Welcome from './Wix/Welcome/Welcome';
+import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
+
 
 export default function Home() {
-  
+
   return (
     <>
-      <h1>Who lives in my Garage?</h1>
-      <Hi />
+      <NestedList />
     </>
-    // <Box sx={{ flexGrow: 1 }}>
-    //   <AppBar position="static">
-    //     <Toolbar variant="dense">
-    //       <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
-    //         <MenuIcon />
-    //       </IconButton>
-    //       <Typography variant="h6" color="inherit" component="div">
-    //         Photos
-    //       </Typography>
-    //     </Toolbar>
-    //   </AppBar>
-    //   <AppBar position="static">
-    //     <Toolbar variant="dense">
-    //       <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
-    //         <MenuIcon />
-    //       </IconButton>
-    //       <Typography variant="h6" color="inherit" component="div">
-    //         Photos
-    //       </Typography>
-    //     </Toolbar>
-    //   </AppBar>
-    // </Box>
-    
   );
 }
-function Hi() {
+
+function NestedList() {
+
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
-        <Toolbar variant="dense">
-          <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" color="inherit" component="div">
-            sss
-          </Typography>
-        </Toolbar>
-      </AppBar>
-      <AppBar position="static">
-        <Toolbar variant="dense">
-          <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" color="inherit" component="div">
-            fff
-          </Typography>
-        </Toolbar>
-      </AppBar>
-    </Box>
-    
+    <List
+      sx={{ width: '100%', maxWidth: 200, bgcolor: 'background.paper' }}
+      component="nav"
+      aria-labelledby="nested-list-subheader"
+      subheader={
+        <ListSubheader component="div" id="nested-list-subheader">
+          Components
+        </ListSubheader>
+      }
+    >
+      <WelcomeItem />
+    </List>
+  );
+}
+
+function WelcomeItem() {
+  const [open, setOpen] = React.useState(true);
+
+  const handleClick = () => {
+    setOpen(!open);
+  };
+
+  return (
+    <>
+      <ListItemButton onClick={handleClick}>
+        <ListItemText primary="Inbox" />
+        {open ? <ExpandLess /> : <ExpandMore />}
+      </ListItemButton>
+      <Collapse in={open} timeout="auto" unmountOnExit>
+        <List component="div" disablePadding>
+          <ListItemButton sx={{ pl: 4 }}>
+
+          <Button component={Link} to="/welcome" color="primary">
+            MyButton
+          </Button>
+
+          </ListItemButton>
+        </List>
+      </Collapse>
+    </>
   );
 }
