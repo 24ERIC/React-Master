@@ -53,7 +53,7 @@ function WelcomeItem() {
   return (
     <>
       <ListItemButton onClick={handleClick}>
-        <ListItemText primary="Inbox" />
+        <ListItemText primary="Welcome" />
         {open ? <ExpandLess /> : <ExpandMore />}
       </ListItemButton>
       <Collapse in={open} timeout="auto" unmountOnExit>
@@ -61,7 +61,7 @@ function WelcomeItem() {
           <ListItemButton sx={{ pl: 4 }}>
 
           <Button component={Link} to="/welcome" color="primary">
-            MyButton
+            Welcome
           </Button>
 
           </ListItemButton>
