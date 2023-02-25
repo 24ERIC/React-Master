@@ -13,6 +13,10 @@ export default function Welcome() {
 
         <Typography variant="h4" textAlign={"center"} marginBottom={10} marginTop={10}>This is Welcome_2</Typography>
         <Welcome_2 />
+        
+        <Typography variant="h4" textAlign={"center"} marginBottom={10} marginTop={10}>This is Welcome_2</Typography>
+        <Typography variant="h4" textAlign={"center"} marginBottom={10} marginTop={10}>This is Welcome_2</Typography>
+        <Typography variant="h4" textAlign={"center"} marginBottom={10} marginTop={10}>This is Welcome_2</Typography>
       </>
     );
   }
