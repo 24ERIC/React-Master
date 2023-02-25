@@ -39,6 +39,7 @@ function ComponentsList() {
       }
     >
       <WelcomeItem />
+      <TeamItem />
     </List>
   );
 }
@@ -62,6 +63,35 @@ function WelcomeItem() {
 
           <Button component={Link} to="/welcome" color="primary">
             Welcome
+          </Button>
+
+          </ListItemButton>
+        </List>
+      </Collapse>
+    </>
+  );
+}
+
+
+function TeamItem() {
+  const [open, setOpen] = React.useState(true);
+
+  const handleClick = () => {
+    setOpen(!open);
+  };
+
+  return (
+    <>
+      <ListItemButton onClick={handleClick}>
+        <ListItemText primary="Team" />
+        {open ? <ExpandLess /> : <ExpandMore />}
+      </ListItemButton>
+      <Collapse in={open} timeout="auto" unmountOnExit>
+        <List component="div" disablePadding>
+          <ListItemButton sx={{ pl: 4 }}>
+
+          <Button component={Link} to="/team" color="primary">
+            Team
           </Button>
 
           </ListItemButton>
