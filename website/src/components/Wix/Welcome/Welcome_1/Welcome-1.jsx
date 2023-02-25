@@ -1,59 +1,38 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import image from './image.jpg';
-import Box from '@mui/material/Box';
-import { grey } from '@mui/material/colors';
+import Button from '@mui/material/Button';
 
 export default function Welcome_1() {
-
   return (
-    <>
-      <h1>This is Welcome_1 page</h1>
-      <MediaCard />
-
-    </>
-  );
-}
-  
-
-
-
-
-function MediaCard() {
-  return (
-    <Box>
-      <CardMedia
-        component="img"
-        image={image}
-        />
-      <Box
+    <Card
       sx={{
-        position: 'absolute',
-        bottom: "-20%",
-        left: "30%",
-        width: '40%',
-        height: '65%',
-        color: 'black',
-        backgroundColor: 'white',
-        
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-
+        position: 'relative',
       }}
+    >
+      <CardContent
+        sx={{
+          position: 'absolute',
+          bottom: "20%",
+          left: "30%",
+          width: '40%',
+          height: '65%',
+          backgroundColor: 'white',
+          
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
-        <Typography variant="h5" color={grey}>Lizard</Typography>
-        <Typography variant="body2">Subtitle</Typography>
-      </Box>
-    </Box>
+        <Typography variant="h4" marginBottom={"10%"}>Lizard</Typography>
+        <Typography variant="caption" width={"70%"} marginBottom={"10%"}>Welcome. We're efv, and we're disrupting the industry with our groundbreaking solutions and business ideas. Our technology has already been recognized by market leaders and our scalable business model is setting the trend for industry standards. Curious to find out more? Browse through our website, and get in touch if you would like to request a demo.</Typography>
+        <Button variant="contained">Learn More</Button>
+      </CardContent>
+      <CardMedia component="img" image={image} />
+    </Card>
   );
 }
-
-
-
