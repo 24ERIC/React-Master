@@ -14,46 +14,30 @@
     npm uninstall @material-ui/core 
 ```
 
-
-    - 
-- 
-- 
-- 
-
 # Plan
+
+- team
+    - 2
+- contact
+    - 4
+- service
+    - 4
+- subscription
+    - 1-2
+- testimonials
+    - 3
+- client
+    - 3
+- store
+    - 2
+- booking
+    - 4
+- events
+    - 4
+- list
+    - 3
+- form
+    - 2
+
+# Resource
 - try how to do amazing header, footer by react, https://divjoy.com/build
-    - Tailwindcss, https://tailwindui.com/components/#product-application-ui
-- 
-- 
-- 
-
-# Research What I can do with them
-- [jsx syntax](https://www.freecodecamp.org/news/react-cheatsheet-with-real-world-examples/)
-- React
-    - [10](https://reactjs.org/community/examples.html)
-    - [10 projects with source code](https://www.techgeekbuzz.com/blog/react-projects-with-source-code/)
-    - [12 projects with source code](https://blog.udemy.com/react-projects/)
-    - [7 projects with source code](https://www.crio.do/projects/category/react-projects/)
-    - [10 projects with source code](https://www.interviewbit.com/blog/react-projects/)
-- Tailwindcss
-    - 
-    - 
-    - 
-    - 
-- Material ui
-    - 
-    - 
-    - 
-    - 
-- Express.js
-    - 
-    - 
-    - 
-    - 
-
-
-
-# Datebase
-a website with all the options of pictures, and component I created
-picture 
-component code
