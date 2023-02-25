@@ -20,12 +20,12 @@ export default function Home() {
 
   return (
     <>
-      <NestedList />
+      <ComponentsList />
     </>
   );
 }
 
-function NestedList() {
+function ComponentsList() {
 
   return (
     <List
