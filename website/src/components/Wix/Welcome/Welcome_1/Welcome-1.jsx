@@ -30,7 +30,7 @@ export default function Welcome_1() {
       >
         <Typography variant="h4" marginBottom={"10%"}>Lizard</Typography>
         <Typography variant="caption" width={"70%"} marginBottom={"10%"}>Welcome. We're efv, and we're disrupting the industry with our groundbreaking solutions and business ideas. Our technology has already been recognized by market leaders and our scalable business model is setting the trend for industry standards. Curious to find out more? Browse through our website, and get in touch if you would like to request a demo.</Typography>
-        <Button variant="contained">Learn More</Button>
+        <Button variant="contained"><Typography variant="caption" >Learn More</Typography></Button>
       </CardContent>
       <CardMedia component="img" image={image} />
     </Card>
