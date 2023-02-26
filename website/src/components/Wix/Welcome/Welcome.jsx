@@ -12,8 +12,14 @@ export default function Welcome() {
 
     return (
       <>
-        <Typography variant="h2" textAlign={"center"}> Components: Welcome</Typography>
-        <Button component={Link} to="/" color="primary">Home</Button>
+      <Typography variant="h2" textAlign={"center"}>
+          <Button component={Link} to="/" color="primary">
+            <Typography variant="h2" textAlign={"center"}>
+              Home 
+            </Typography>
+          </Button> 
+          - Components: Welcome
+        </Typography>
 
         <Typography variant="h4" textAlign={"center"} marginBottom={10} marginTop={5}>Below is Welcome_1</Typography>
         <Welcome_1 />
@@ -27,7 +33,14 @@ export default function Welcome() {
         <Typography variant="h4" textAlign={"center"} marginBottom={10} marginTop={10}>Below is Welcome_4</Typography>
         <Welcome_4 />
         
-        <Typography variant="h4" textAlign={"center"} marginBottom={10} marginTop={10}>Below is Welcome_5</Typography>
+        <Typography variant="h4" textAlign={"center"} marginBottom={10} marginTop={5}>
+          Go Back - 
+          <Button component={Link} to="/" color="primary">
+            <Typography variant="h4" textAlign={"center"}>
+              Home
+            </Typography>
+          </Button>
+        </Typography>
       </>
     );
   }

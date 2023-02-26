@@ -10,14 +10,30 @@ export default function Team() {
 
     return (
       <>
-        <Typography variant="h2" textAlign={"center"}> Components: Team</Typography>
-        <Button component={Link} to="/" color="primary">Home</Button>
+        <Typography variant="h2" textAlign={"center"}>
+          <Button component={Link} to="/" color="primary">
+            <Typography variant="h2" textAlign={"center"}>
+              Home 
+            </Typography>
+          </Button> 
+          - Components: Team
+        </Typography>
 
         <Typography variant="h4" textAlign={"center"} marginBottom={10} marginTop={5}>Below is Team_1</Typography>
         <Team_1 />
 
         <Typography variant="h4" textAlign={"center"} marginBottom={10} marginTop={5}>Below is Team_2</Typography>
         <Team_2 />
+
+        <Typography variant="h4" textAlign={"center"} marginBottom={10} marginTop={5}>
+          Go Back - 
+          <Button component={Link} to="/" color="primary">
+            <Typography variant="h4" textAlign={"center"}>
+              Home
+            </Typography>
+          </Button>
+        </Typography>
+        
       </>
     );
   }
