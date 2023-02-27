@@ -14,7 +14,7 @@ import StarBorder from '@mui/icons-material/StarBorder';
 import Welcome from './Wix/Welcome/Welcome';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
-
+import Contact from './Wix/Contact/Contact';
 
 export default function Home() {
 
@@ -40,6 +40,7 @@ function ComponentsList() {
     >
       <WelcomeItem />
       <TeamItem />
+      <ContactItem />
     </List>
   );
 }
@@ -92,6 +93,35 @@ function TeamItem() {
 
           <Button component={Link} to="/team" color="primary">
             Team
+          </Button>
+
+          </ListItemButton>
+        </List>
+      </Collapse>
+    </>
+  );
+}
+
+
+function ContactItem() {
+  const [open, setOpen] = React.useState(true);
+
+  const handleClick = () => {
+    setOpen(!open);
+  };
+
+  return (
+    <>
+      <ListItemButton onClick={handleClick}>
+        <ListItemText primary="Contact" />
+        {open ? <ExpandLess /> : <ExpandMore />}
+      </ListItemButton>
+      <Collapse in={open} timeout="auto" unmountOnExit>
+        <List component="div" disablePadding>
+          <ListItemButton sx={{ pl: 4 }}>
+
+          <Button component={Link} to="/contact" color="primary">
+            Contact
           </Button>
 
           </ListItemButton>

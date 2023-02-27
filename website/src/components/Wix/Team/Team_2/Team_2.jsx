@@ -216,6 +216,11 @@ function TeamMember2Text() {
         <Typography variant="body3" component="p">
           123-456-7890
         </Typography>
+        <Typography variant="body3" component="p">
+          <FacebookIcon />
+          <TwitterIcon />
+          <LinkedInIcon />
+        </Typography>
       </CardContent>
     </Card>
   );
@@ -270,6 +275,11 @@ function TeamMember3Text() {
         <br />
         <Typography variant="body3" component="p">
           123-456-7890
+        </Typography>
+        <Typography variant="body3" component="p">
+          <FacebookIcon />
+          <TwitterIcon />
+          <LinkedInIcon />
         </Typography>
       </CardContent>
     </Card>
@@ -326,6 +336,11 @@ function TeamMember4Text() {
         <Typography variant="body3" component="p">
           123-456-7890
         </Typography>
+        <Typography variant="body3" component="p">
+          <FacebookIcon />
+          <TwitterIcon />
+          <LinkedInIcon />
+        </Typography>
       </CardContent>
     </Card>
   );
@@ -380,6 +395,11 @@ function TeamMember5Text() {
         <br />
         <Typography variant="body3" component="p">
           123-456-7890
+        </Typography>
+        <Typography variant="body3" component="p">
+          <FacebookIcon />
+          <TwitterIcon />
+          <LinkedInIcon />
         </Typography>
       </CardContent>
     </Card>
@@ -436,6 +456,11 @@ function TeamMember6Text() {
         <br />
         <Typography variant="body3" component="p">
           123-456-7890
+        </Typography>
+        <Typography variant="body3" component="p">
+          <FacebookIcon />
+          <TwitterIcon />
+          <LinkedInIcon />
         </Typography>
       </CardContent>
     </Card>

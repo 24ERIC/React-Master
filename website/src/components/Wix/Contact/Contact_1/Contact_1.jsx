@@ -6,14 +6,20 @@ import Typography from '@mui/material/Typography';
 
 import Button from '@mui/material/Button'; 
 import { Grid } from '@mui/material';
+import PlaceIcon from '@mui/icons-material/Place';
+import PhoneIcon from '@mui/icons-material/Phone';
+import EmailIcon from '@mui/icons-material/Email';
+import ThumbUpIcon from '@mui/icons-material/ThumbUp';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 
 
-export default function Team_1() {
+export default function Contact_1() {
   return (
-    <>
-      <Introduction />
-       
+    <>       
       <Grid
         marginTop={"15%"}
         container
@@ -22,20 +28,17 @@ export default function Team_1() {
         paddingRight="40px"
         justify="center"
       >
-        <Grid item xs={12} sm={6} md={4}>
-          <TeamMember1 />
+        <Grid item xs={3} sm={3} md={3}>
+          <Card1 />
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <TeamMember2 />
+        <Grid item xs={3} sm={3} md={3}>
+          <Card2 />
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <TeamMember3 />
+        <Grid item xs={3} sm={3} md={3}>
+          <Card3 />
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <TeamMember4 />
-        </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <TeamMember5 />
+        <Grid item xs={3} sm={3} md={3}>
+          <Card4 />
         </Grid>
       </Grid>
     </>
@@ -43,197 +46,104 @@ export default function Team_1() {
 }
 
 
-function Introduction() {
-
+function Card1() {
   return (
-    <Card
-      sx={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        marginTop: "15%",
+    <Card 
+      sc = {{
+        display: 'flex',
+        maxWidth: 600,
       }}
     >
-      <CardContent
-        sx={{
-          position: 'absolute',
-          width: '60%',
-          height: '65%',
-          background: 'transparent', 
-          boxShadow: 'none',
-          
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <Typography variant="h2" marginBottom={"2%"}>Super Super Team</Typography>
-        <Typography variant="caption" width={"70%"} marginBottom={"10%"}>Welcome. We're Super Super, and we're disrupting the industry with our groundbreaking solutions and business ideas. Our technology has already been recognized by market leaders and our scalable business model is setting the trend for industry standards. Curious to find out more? Browse through our website, and get in touch if you would like to request a demo.</Typography>
-        <Button variant="contained"><Typography variant="caption" >Learn More</Typography></Button>
-      </CardContent>
-      {/* <CardMedia component="img" image={image} /> */}
-    </Card>
-  );
-}
+      <CardContent>
+        <Typography textAlign={"center"}><PlaceIcon /></Typography>
 
-function TeamMember1() {
-  return (
-    <Card
-      sx={{
-        position: 'relative',
-      }}
-    >
-      <CardContent
-        sx={{
-          position: 'absolute',
-          bottom: "-9%",
-          left: "20%",
-          width: '100',
-          height: '30',
-          backgroundColor: 'white',
-          
-          // display: "flex",
-          // flexDirection: "column",
-          // justifyContent: "center",
-          // alignItems: "center",
-        }}
-      >
-        <Typography variant="h4" marginBottom={"10%"}>Molaen Neak</Typography>
-
+        <Typography textAlign={"center"} variant="body1" fontWeight={"800"} component="h2">
+          Address
+        </Typography>
+        <br />
+        <Typography textAlign={"center"} variant="body2" fontWeight={"600"} component="h2">
+          500 Terry Francine St.
+        </Typography>
+        <Typography textAlign={"center"} variant="body2" fontWeight={"600"} component="h2">
+          San Francisco, CA 94158
+        </Typography>
       </CardContent>
-      <CardMedia component="img" image={image1} />
     </Card>
   );
 }
 
 
-
-function TeamMember2() {
+function Card2() {
   return (
-    <Card
-      sx={{
-        position: 'relative',
+    <Card 
+      sc = {{
+        display: 'flex',
+        maxWidth: 600,
       }}
     >
-      <CardContent
-        sx={{
-          position: 'absolute',
-          bottom: "-9%",
-          left: "20%",
-          width: '100',
-          height: '30',
-          backgroundColor: 'white',
-          
-          // display: "flex",
-          // flexDirection: "column",
-          // justifyContent: "center",
-          // alignItems: "center",
-        }}
-      >
-        <Typography variant="h4" marginBottom={"10%"}>Molaen Neak</Typography>
+      <CardContent>
+        <Typography textAlign={"center"}><PhoneIcon /></Typography>
 
+        <Typography textAlign={"center"} variant="body1" fontWeight={"800"} component="h2">
+          Phone
+        </Typography>
+        <br />
+        <Typography textAlign={"center"} variant="body2" fontWeight={"600"} component="h2">
+        123-456-7890
+        </Typography>
       </CardContent>
-      <CardMedia component="img" image={image2} />
     </Card>
   );
 }
 
 
-
-function TeamMember3() {
+function Card3() {
   return (
-    <Card
-      sx={{
-        position: 'relative',
+    <Card 
+      sc = {{
+        display: 'flex',
+        maxWidth: 600,
       }}
     >
-      <CardContent
-        sx={{
-          position: 'absolute',
-          bottom: "-9%",
-          left: "20%",
-          width: '100',
-          height: '30',
-          backgroundColor: 'white',
-          
-          // display: "flex",
-          // flexDirection: "column",
-          // justifyContent: "center",
-          // alignItems: "center",
-        }}
-      >
-        <Typography variant="h4" marginBottom={"10%"}>Molaen Neak</Typography>
+      <CardContent>
+        <Typography textAlign={"center"}><EmailIcon /></Typography>
 
+        <Typography textAlign={"center"} variant="body1" fontWeight={"800"} component="h2">
+          Address
+        </Typography>
+        <br />
+        <Typography textAlign={"center"} variant="body2" fontWeight={"600"} component="h2">
+          info@mysite.com
+        </Typography>
       </CardContent>
-      <CardMedia component="img" image={image3} />
     </Card>
   );
 }
 
 
-
-function TeamMember4() {
+function Card4() {
   return (
-    <Card
-      sx={{
-        position: 'relative',
+    <Card 
+      sc = {{
+        display: 'flex',
+        maxWidth: 600,
       }}
     >
-      <CardContent
-        sx={{
-          position: 'absolute',
-          bottom: "-9%",
-          left: "20%",
-          width: '100',
-          height: '30',
-          backgroundColor: 'white',
-          
-          // display: "flex",
-          // flexDirection: "column",
-          // justifyContent: "center",
-          // alignItems: "center",
-        }}
-      >
-        <Typography variant="h4" marginBottom={"10%"}>Molaen Neak</Typography>
+      <CardContent>
+        <Typography textAlign={"center"}><ThumbUpIcon /></Typography>
 
+        <Typography textAlign={"center"} variant="body1" fontWeight={"800"} component="h2">
+          Connect
+        </Typography>
+        <br />
+        <Typography textAlign={"center"} >
+          <FacebookIcon sx={{ fontSize: 25 }}/>
+          <TwitterIcon sx={{ fontSize: 25 }}/>
+          <LinkedInIcon sx={{ fontSize: 25 }}/>
+          <InstagramIcon sx={{ fontSize: 25 }}/>
+        </Typography>
       </CardContent>
-      <CardMedia component="img" image={image4} />
     </Card>
   );
 }
-
-
-
-function TeamMember5() {
-  return (
-    <Card
-      sx={{
-        position: 'relative',
-      }}
-    >
-      <CardContent
-        sx={{
-          position: 'absolute',
-          bottom: "-9%",
-          left: "20%",
-          width: '100',
-          height: '30',
-          backgroundColor: 'white',
-          
-          // display: "flex",
-          // flexDirection: "column",
-          // justifyContent: "center",
-          // alignItems: "center",
-        }}
-      >
-        <Typography variant="h4" marginBottom={"10%"}>Molaen Neak</Typography>
-
-      </CardContent>
-      <CardMedia component="img" image={image1} />
-    </Card>
-  );
-}
-
 

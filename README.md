@@ -16,8 +16,7 @@
 
 # Plan
 
-- team
-    - 2
+
 - contact
     - 4
 - service
