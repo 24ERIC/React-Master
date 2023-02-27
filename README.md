@@ -28,6 +28,11 @@ I learned how to develop an app by React (Javascript), get to know what is JSX a
 
     # Deal with some bugs
     # npm uninstall @material-ui/core 
+
+    # git
+    git add *
+    git commit -m "???"
+    git push --set-upstream origin master
 ```
 
 
