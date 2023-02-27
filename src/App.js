@@ -9,11 +9,11 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/">
+        <Route path="/test/">
           <Route index element={<Home />} />
-          <Route path="welcome" element={<Welcome />} />
-          <Route path="team" element={<Team />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="/test/welcome" element={<Welcome />} />
+          <Route path="/test/team" element={<Team />} />
+          <Route path="/test/contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>

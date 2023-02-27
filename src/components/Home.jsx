@@ -52,19 +52,19 @@ function Components() {
         <List component="div" disablePadding>
           
           <ListItemButton sx={{ pl: 4 }}>
-            <Button component={Link} to="/welcome" color="primary">
+            <Button component={Link} to="/test/welcome" color="primary">
               Welcome
             </Button>
           </ListItemButton>
 
           <ListItemButton sx={{ pl: 4 }}>
-            <Button component={Link} to="/team" color="primary">
+            <Button component={Link} to="/test/team" color="primary">
               Team
             </Button>
           </ListItemButton>
 
           <ListItemButton sx={{ pl: 4 }}>
-            <Button component={Link} to="/contact" color="primary">
+            <Button component={Link} to="/test/contact" color="primary">
               Contact
             </Button>
           </ListItemButton>

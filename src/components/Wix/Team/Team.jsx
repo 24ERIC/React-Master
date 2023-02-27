@@ -11,7 +11,7 @@ export default function Team() {
     return (
       <>
         <Typography variant="h2" textAlign={"center"}>
-          <Button component={Link} to="/" color="primary" textAlign={"center"}>
+          <Button component={Link} to="/test" color="primary" textAlign={"center"}>
             <HomeIcon color="primary" sx={{ fontSize: 100 }}/> 
           </Button> 
           <Typography variant="h2" textAlign={"center"} fontWeight={"1000"}>Components: Team </Typography>
@@ -24,7 +24,7 @@ export default function Team() {
         <Team_2 />
 
         <Typography variant="h4" textAlign={"center"} marginBottom={10} marginTop={5}>
-          <Button component={Link} to="/" color="primary" textAlign={"center"}>
+          <Button component={Link} to="/test" color="primary" textAlign={"center"}>
             <HomeIcon color="primary" sx={{ fontSize: 100 }}/> 
           </Button> 
         </Typography>
