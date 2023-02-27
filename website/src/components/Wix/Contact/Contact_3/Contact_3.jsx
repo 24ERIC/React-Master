@@ -3,7 +3,6 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-
 import Button from '@mui/material/Button'; 
 import { Grid } from '@mui/material';
 import PlaceIcon from '@mui/icons-material/Place';
@@ -14,6 +13,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import TextField from '@mui/material/TextField';
 
 
 
@@ -69,8 +69,11 @@ function Card1() {
         <Typography textAlign={"left"} >
           &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&emsp;&ensp;&emsp;
           <FacebookIcon sx={{ fontSize: 25 }}/>
+          &emsp;
           <TwitterIcon sx={{ fontSize: 25 }}/>
+          &emsp;
           <LinkedInIcon sx={{ fontSize: 25 }}/>
+          &emsp;
           <InstagramIcon sx={{ fontSize: 25 }}/>
         </Typography>
       </CardContent>
@@ -88,44 +91,56 @@ function Card2() {
     >
       <CardContent>
         <Typography textAlign={"left"} variant="h5" fontWeight={"900"} component="h2">
-          Contact
+          <TextField
+            required
+            id="outlined-required"
+            label="First Name"
+            defaultValue=""
+          />
+          &ensp;&ensp;
+          <TextField
+            required
+            id="outlined-required"
+            label="Last Name"
+            defaultValue=""
+          />
         </Typography>
         <br />
-        <Typography textAlign={"left"} variant="body2" fontWeight={"500"} component="h2">
-          123-456-7890
-        </Typography>
-        <Typography textAlign={"left"} variant="body2" fontWeight={"500"} component="h2">
-          info@mysite.com
-        </Typography>
-      </CardContent>
-    </Card>
-  );
-}
 
-function Card3() {
-  return (
-    <Card 
-      sc = {{
-        // display: 'flex',
-        // maxWidth: 600,
-      }}
-    >
-      <CardContent>
+        <Typography textAlign={"left"} variant="h5" fontWeight={"900"} component="h2" >
+          <TextField
+            required
+            id="outlined-required"
+            label="Email"
+            defaultValue=""
+            style={{ width: 650 }}
+          />
+        </Typography>
+        <br />
+
         <Typography textAlign={"left"} variant="h5" fontWeight={"900"} component="h2">
-          Opening Hours
+          <TextField
+            required
+            id="filled-multiline-static"
+            label="Message"
+            multiline
+            rows={4}
+            defaultValue=""
+            variant="filled"
+            style={{ width: 650 }}
+          />
         </Typography>
         <br />
-        <Typography textAlign={"left"} variant="body2" fontWeight={"500"} component="h2">
-          Mon - Fri &ensp;&ensp;&ensp;8:00 am - 8:00 pm
-        </Typography>
-        <Typography textAlign={"left"} variant="body2" fontWeight={"500"} component="h2">
-          Saturday &ensp;&ensp;&ensp;9:00 am - 7:00 pm
-        </Typography>
-        <Typography textAlign={"left"} variant="body2" fontWeight={"500"} component="h2">
-          Sunday &ensp;&emsp;&ensp;&emsp;&emsp;&emsp;9:00 am - 9:00 pm
+
+        <Button variant="contained" >
+          &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+          Send
+          &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+        </Button>
+        <Typography textAlign={"left"}  style={{ fontSize: 13 }} fontWeight={"900"} >
+          Thanks for submitting!
         </Typography>
       </CardContent>
     </Card>
   );
 }
-
