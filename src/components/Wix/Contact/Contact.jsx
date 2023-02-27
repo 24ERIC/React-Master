@@ -12,7 +12,7 @@ export default function Contact() {
     return (
       <>
         <Typography variant="h2" textAlign={"center"}>
-          <Button component={Link} to="/test" color="primary" textAlign={"center"}>
+          <Button component={Link} to="/React-Master" color="primary" textAlign={"center"}>
             <HomeIcon color="primary" sx={{ fontSize: 100 }}/> 
           </Button> 
           <Typography variant="h2" textAlign={"center"} fontWeight={"1000"}>Components: Contact </Typography>
@@ -28,7 +28,7 @@ export default function Contact() {
         <Contact_3 />
 
         <Typography variant="h4" textAlign={"center"} marginBottom={10} marginTop={5}>
-          <Button component={Link} to="/test" color="primary" textAlign={"center"}>
+          <Button component={Link} to="/React-Master" color="primary" textAlign={"center"}>
             <HomeIcon color="primary" sx={{ fontSize: 100 }}/> 
           </Button> 
         </Typography>

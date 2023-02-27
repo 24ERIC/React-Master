@@ -9,11 +9,11 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/test/">
+        <Route path="/React-Master/">
           <Route index element={<Home />} />
-          <Route path="/test/welcome" element={<Welcome />} />
-          <Route path="/test/team" element={<Team />} />
-          <Route path="/test/contact" element={<Contact />} />
+          <Route path="/React-Master/welcome" element={<Welcome />} />
+          <Route path="/React-Master/team" element={<Team />} />
+          <Route path="/React-Master/contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>
