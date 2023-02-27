@@ -1,5 +1,6 @@
 import Contact_1 from './Contact_1/Contact_1';
 import Contact_2 from './Contact_2/Contact_2';
+import Contact_3 from './Contact_3/Contact_3';
 
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
@@ -23,6 +24,9 @@ export default function Contact() {
 
         <Typography variant="h4" color={"primary"} textAlign={"center"} marginBottom={10} marginTop={5} >--------------------------------------Below is Contact_2--------------------------------------</Typography>
         <Contact_2 />
+
+        <Typography variant="h4" color={"primary"} textAlign={"center"} marginBottom={10} marginTop={5} >--------------------------------------Below is Contact_3--------------------------------------</Typography>
+        <Contact_3 />
 
         <Typography variant="h4" textAlign={"center"} marginBottom={10} marginTop={5}>
           <Button component={Link} to="/" color="primary" textAlign={"center"}>
