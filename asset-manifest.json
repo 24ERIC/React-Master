@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Master/static/css/main.e6c13ad2.css",
+    "main.js": "/React-Master/static/js/main.cc515a82.js",
+    "static/js/787.71e672d5.chunk.js": "/React-Master/static/js/787.71e672d5.chunk.js",
+    "static/media/image.jpg": "/React-Master/static/media/image.46a43ac7d3110881068c.jpg",
+    "static/media/1.png": "/React-Master/static/media/1.142597bef7eff26a672d.png",
+    "static/media/image.png": "/React-Master/static/media/image.08ad744b905f8660fc85.png",
+    "static/media/5.png": "/React-Master/static/media/5.7d29c5b8cba4fa1531b3.png",
+    "static/media/3.png": "/React-Master/static/media/3.6a6e411fb95eccb08507.png",
+    "static/media/4.png": "/React-Master/static/media/4.d30da43f9ff4bae7f206.png",
+    "static/media/2.png": "/React-Master/static/media/2.9f908700fd9275e7d0b4.png",
+    "static/media/6.png": "/React-Master/static/media/6.6749805e94b4df76dbed.png",
+    "index.html": "/React-Master/index.html",
+    "main.e6c13ad2.css.map": "/React-Master/static/css/main.e6c13ad2.css.map",
+    "main.cc515a82.js.map": "/React-Master/static/js/main.cc515a82.js.map",
+    "787.71e672d5.chunk.js.map": "/React-Master/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.cc515a82.js"
+  ]
+}
