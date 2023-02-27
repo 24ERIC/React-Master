@@ -1,12 +1,11 @@
-import Welcome_1 from "./Welcome_1/Welcome-1";
-import Welcome_2 from "./Welcome_2/Welcome-2";
-import Welcome_3 from "./Welcome_3/Welcome-3";
-import Welcome_4 from "./Welcome_4/Welcome-4";
-
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import HomeIcon from '@mui/icons-material/Home';
+import Welcome_1 from "./Welcome_1/Welcome-1";
+import Welcome_2 from "./Welcome_2/Welcome-2";
+import Welcome_3 from "./Welcome_3/Welcome-3";
+import Welcome_4 from "./Welcome_4/Welcome-4";
 
 
 export default function Welcome() {

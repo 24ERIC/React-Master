@@ -1,11 +1,10 @@
-import Contact_1 from './Contact_1/Contact_1';
-import Contact_2 from './Contact_2/Contact_2';
-import Contact_3 from './Contact_3/Contact_3';
-
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import HomeIcon from '@mui/icons-material/Home';
+import Contact_1 from './Contact_1/Contact_1';
+import Contact_2 from './Contact_2/Contact_2';
+import Contact_3 from './Contact_3/Contact_3';
 
 
 export default function Contact() {
@@ -33,7 +32,6 @@ export default function Contact() {
             <HomeIcon color="primary" sx={{ fontSize: 100 }}/> 
           </Button> 
         </Typography>
-        
       </>
     );
   }

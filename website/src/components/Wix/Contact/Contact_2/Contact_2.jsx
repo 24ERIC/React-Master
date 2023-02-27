@@ -1,20 +1,8 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-
-import Button from '@mui/material/Button'; 
 import { Grid } from '@mui/material';
-import PlaceIcon from '@mui/icons-material/Place';
-import PhoneIcon from '@mui/icons-material/Phone';
-import EmailIcon from '@mui/icons-material/Email';
-import ThumbUpIcon from '@mui/icons-material/ThumbUp';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
-
 
 
 export default function Contact_2() {
@@ -44,7 +32,6 @@ export default function Contact_2() {
       <div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.7976443938746!2d-79.66487278439928!3d43.54825987912511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b43e3135af203%3A0x713c168866b9f492!2sUniversity%20of%20Toronto%20Mississauga!5e0!3m2!1sen!2sca!4v1677463416078!5m2!1sen!2sca" width="1440" height="500" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-      {/* <Card4 /> */}
     </>
   );
 }
@@ -52,12 +39,7 @@ export default function Contact_2() {
 
 function Card1() {
   return (
-    <Card 
-      sc = {{
-        // display: 'flex',
-        // maxWidth: 600,
-      }}
-    >
+    <Card>
       <CardContent>
         <Typography textAlign={"left"} variant="h5" fontWeight={"900"} component="h2">
         &ensp;&ensp;&emsp;Address
@@ -74,14 +56,10 @@ function Card1() {
   );
 }
 
+
 function Card2() {
   return (
-    <Card 
-      sc = {{
-        // display: 'flex',
-        // maxWidth: 600,
-      }}
-    >
+    <Card>
       <CardContent>
         <Typography textAlign={"left"} variant="h5" fontWeight={"900"} component="h2">
           Contact
@@ -98,14 +76,10 @@ function Card2() {
   );
 }
 
+
 function Card3() {
   return (
-    <Card 
-      sc = {{
-        // display: 'flex',
-        // maxWidth: 600,
-      }}
-    >
+    <Card>
       <CardContent>
         <Typography textAlign={"left"} variant="h5" fontWeight={"900"} component="h2">
           Opening Hours
@@ -124,4 +98,3 @@ function Card3() {
     </Card>
   );
 }
-

@@ -1,22 +1,18 @@
+import * as React from 'react';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import { Grid } from '@mui/material';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import image1 from './1.png';
 import image2 from './2.png';
 import image3 from './3.png';
 import image4 from './4.png';
 import image5 from './5.png';
 import image6 from './6.png';
-
-import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-
-import Button from '@mui/material/Button'; 
-import { Grid } from '@mui/material';
-import { makeStyles } from '@mui/material';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 
 export default function Team_2() {
@@ -167,9 +163,6 @@ function TeamMember1Text() {
 }
 
 
-
-
-
 function TeamMember2Picture() {
 
   return (
@@ -225,9 +218,6 @@ function TeamMember2Text() {
     </Card>
   );
 }
-
-
-
 
 
 function TeamMember3Picture() {
@@ -287,9 +277,6 @@ function TeamMember3Text() {
 }
 
 
-
-
-
 function TeamMember4Picture() {
 
   return (
@@ -345,9 +332,6 @@ function TeamMember4Text() {
     </Card>
   );
 }
-
-
-
 
 
 function TeamMember5Picture() {
@@ -407,10 +391,6 @@ function TeamMember5Text() {
 }
 
 
-
-
-
-
 function TeamMember6Picture() {
 
   return (
@@ -466,6 +446,3 @@ function TeamMember6Text() {
     </Card>
   );
 }
-
-
-

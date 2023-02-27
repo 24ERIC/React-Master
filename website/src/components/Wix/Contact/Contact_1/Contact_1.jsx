@@ -1,10 +1,7 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-
-import Button from '@mui/material/Button'; 
 import { Grid } from '@mui/material';
 import PlaceIcon from '@mui/icons-material/Place';
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -14,7 +11,6 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
-
 
 
 export default function Contact_1() {
@@ -135,15 +131,17 @@ function Card4() {
         <Typography textAlign={"center"} variant="body1" fontWeight={"800"} component="h2">
           Connect
         </Typography>
+
         <br />
+
         <Typography textAlign={"center"} >
           <FacebookIcon sx={{ fontSize: 25 }}/>
           <TwitterIcon sx={{ fontSize: 25 }}/>
           <LinkedInIcon sx={{ fontSize: 25 }}/>
           <InstagramIcon sx={{ fontSize: 25 }}/>
         </Typography>
+
       </CardContent>
     </Card>
   );
 }
-

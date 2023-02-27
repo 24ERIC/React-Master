@@ -1,20 +1,14 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button'; 
 import { Grid } from '@mui/material';
-import PlaceIcon from '@mui/icons-material/Place';
-import PhoneIcon from '@mui/icons-material/Phone';
-import EmailIcon from '@mui/icons-material/Email';
-import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TextField from '@mui/material/TextField';
-
 
 
 export default function Contact_3() {
@@ -40,12 +34,7 @@ export default function Contact_3() {
 
 function Card1() {
   return (
-    <Card 
-      sc = {{
-        // display: 'flex',
-        // maxWidth: 600,
-      }}
-    >
+    <Card>
       <CardContent>
         <Typography textAlign={"left"} variant="h5" fontWeight={"900"} component="h2">
         &ensp;&ensp;&ensp;&ensp;&ensp;&emsp;Get in Touch
@@ -81,14 +70,10 @@ function Card1() {
   );
 }
 
+
 function Card2() {
   return (
-    <Card 
-      sc = {{
-        // display: 'flex',
-        // maxWidth: 600,
-      }}
-    >
+    <Card>
       <CardContent>
         <Typography textAlign={"left"} variant="h5" fontWeight={"900"} component="h2">
           <TextField
