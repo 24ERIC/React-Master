@@ -4,6 +4,7 @@ import Team_2 from "./Team_2/Team_2";
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
+import HomeIcon from '@mui/icons-material/Home';
 
 
 export default function Team() {
@@ -11,27 +12,22 @@ export default function Team() {
     return (
       <>
         <Typography variant="h2" textAlign={"center"}>
-          <Button component={Link} to="/" color="primary">
-            <Typography variant="h2" textAlign={"center"}>
-              Home 
-            </Typography>
+          <Button component={Link} to="/" color="primary" textAlign={"center"}>
+            <HomeIcon color="primary" sx={{ fontSize: 100 }}/> 
           </Button> 
-          - Components: Team
+          <Typography variant="h2" textAlign={"center"} fontWeight={"1000"}>Components: Team </Typography>
         </Typography>
 
-        <Typography variant="h4" textAlign={"center"} marginBottom={10} marginTop={5}>Below is Team_1</Typography>
+        <Typography variant="h4" color={"primary"} textAlign={"center"} marginBottom={10} marginTop={5} >----------------------------------------Below is Team_1----------------------------------------</Typography>
         <Team_1 />
 
-        <Typography variant="h4" textAlign={"center"} marginBottom={10} marginTop={5}>Below is Team_2</Typography>
+        <Typography variant="h4" color={"primary"} textAlign={"center"} marginBottom={10} marginTop={5} >----------------------------------------Below is Team_2----------------------------------------</Typography>
         <Team_2 />
 
         <Typography variant="h4" textAlign={"center"} marginBottom={10} marginTop={5}>
-          Go Back - 
-          <Button component={Link} to="/" color="primary">
-            <Typography variant="h4" textAlign={"center"}>
-              Home
-            </Typography>
-          </Button>
+          <Button component={Link} to="/" color="primary" textAlign={"center"}>
+            <HomeIcon color="primary" sx={{ fontSize: 100 }}/> 
+          </Button> 
         </Typography>
         
       </>

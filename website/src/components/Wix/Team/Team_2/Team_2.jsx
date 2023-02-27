@@ -14,6 +14,10 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button'; 
 import { Grid } from '@mui/material';
 import { makeStyles } from '@mui/material';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
 
 export default function Team_2() {
   return (
@@ -151,6 +155,12 @@ function TeamMember1Text() {
         <Typography variant="body3" component="p">
           123-456-7890
         </Typography>
+        <Typography variant="body3" component="p">
+          <FacebookIcon />
+          <TwitterIcon />
+          <LinkedInIcon />
+        </Typography>
+
       </CardContent>
     </Card>
   );
